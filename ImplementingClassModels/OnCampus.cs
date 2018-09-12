@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ImplementingClassModels
 {
-    class OnCampus
+    class OnCampus : Section
     {
+
     }
 }

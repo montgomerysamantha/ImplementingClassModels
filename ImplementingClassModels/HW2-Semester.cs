@@ -11,8 +11,8 @@ namespace ImplementingClassModels
         static void Main(string[] args)
         {
             //Semester s = new Semester("Fall");
-            //Faculty t1 = new Faculty("Quirinus Quirrell"); //Defence Against the Dark Arts teacher at Hogwarts
-            //Faculty t2 = new Faculty("Filius Flitwick"); //Charms teacher at Hogwarts
+            Faculty t1 = new Faculty("Quirinus Quirrell"); //Defence Against the Dark Arts teacher at Hogwarts
+            Faculty t2 = new Faculty("Filius Flitwick"); //Charms teacher at Hogwarts
             //Course c1 = new Course() { title = "Advanced Black Arts", number = 9899 };
             //Course c2 = new Course() { title = "Third Year Charms", number = 8499 };
 

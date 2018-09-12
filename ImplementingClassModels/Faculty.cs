@@ -11,7 +11,7 @@ namespace ImplementingClassModels
     {
         private string _name = "";
 
-        Faculty(string n)
+        public Faculty(string n)
         {
             _name = n;
         }
