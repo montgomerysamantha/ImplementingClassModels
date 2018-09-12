@@ -9,15 +9,15 @@ namespace ImplementingClassModels
     
     class Faculty : IFaculty
     {
-        private string _name = "";
+        private string _name;
 
         public Faculty(string n)
         {
             _name = n;
         }
-        public void AssignSection()
+        public void AssignSection(Section assignedSection)
         {
-            throw new NotImplementedException();
+            
         }
 
         public string GetName()
