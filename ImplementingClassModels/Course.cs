@@ -8,5 +8,7 @@ namespace ImplementingClassModels
 {
     class Course
     {
+        public string title;
+        public int number;
     }
 }
