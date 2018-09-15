@@ -30,7 +30,7 @@ namespace ImplementingClassModels
              */
              string teacherName = this._faculty.GetName();
              string result = this._course.number + " section " + number + " " + this._course.title + " is being taught by " + teacherName + " in " + _semester.GetName();
-            return result;
+             return result;
         }
     }
 }
