@@ -15,7 +15,11 @@ namespace ImplementingClassModels
              * on diagram looks like private but since it's OnCampus is inherited it won't
              * get this initialization
              */
-            _semester = semester;
+            this._semester = semester;
+            this._course = couse;
+            this._faculty = teacher;
+            this.number = number;
+            this.cap = cap;
         }
 
         public override string ToString()
@@ -24,7 +28,9 @@ namespace ImplementingClassModels
              * format string like this: 9899 section B06 (Advanced Black Arts) is being taught by Quirinus Quirrell in Fall
              *                  class number, section num, class name,         is being taught by teacher name, title of semester
              */
-            return base.ToString();
+             string teacherName = this._faculty.GetName();
+             string result = this._course.number + " section " + number + " " + this._course.title + " is being taught by " + teacherName + " in " + _semester.GetName();
+            return result;
         }
     }
 }
