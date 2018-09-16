@@ -24,7 +24,7 @@ namespace ImplementingClassModels
              *                  class number, section num, class name,         is being taught by teacher name, title of semester
              */
              string teacherName = this._faculty.GetName();
-             string result = this._course.number + " section " + number + " " + this._course.title + " is being taught by " + teacherName + " in " + _semester.GetName();
+             string result = this._course.number + " section " + number + " (" + this._course.title + ") is being taught by " + teacherName + " in " + _semester.GetName();
              return result;
         }
     }
