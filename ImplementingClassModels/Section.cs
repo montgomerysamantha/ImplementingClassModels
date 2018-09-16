@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ImplementingClassModels
 {
-    class Section
+    public class Section
     {
         //Should be dones
         protected Faculty _faculty; //?? not sure if this is correct

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ImplementingClassModels
 {
-    class Course
+    public class Course
     {
         public string title;
         public int number;

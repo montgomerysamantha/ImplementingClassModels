@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ImplementingClassModels
 {
-    class OnCampus : Section
+    public class OnCampus : Section
     {
         public OnCampus(Semester semester, Course course, Faculty teacher, string number, int cap)
         { 
@@ -16,7 +16,7 @@ namespace ImplementingClassModels
              * get this initialization
              */
             this._semester = semester;
-            this._course = couse;
+            this._course = course;
             this._faculty = teacher;
             this.number = number;
             this.cap = cap;

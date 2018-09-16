@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ImplementingClassModels
 {
-    class Semester
+    public class Semester
     {
         private string _name;
         public List<Section> _sections;

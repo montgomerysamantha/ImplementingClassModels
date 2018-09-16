@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ImplementingClassModels
 {
-    class Online : Section
+    public class Online : Section
     {
         public Online(Semester semester, Course course, Faculty teacher, string number, int cap)
         {
             this._semester = semester;
-            this._course = couse;
+            this._course = course;
             this._faculty = teacher;
             this.number = number;
             this.cap = cap;
@@ -26,7 +26,6 @@ namespace ImplementingClassModels
              string teacherName = this._faculty.GetName();
              string result = this._course.number + " section " + number + " " + this._course.title + " is being taught by " + teacherName + " in " + _semester.GetName();
              return result;
-            return base.ToString();
         }
     }
 }

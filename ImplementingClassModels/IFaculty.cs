@@ -9,6 +9,6 @@ namespace ImplementingClassModels
     public interface IFaculty
     {
         string GetName();
-        void AssignSection(Section assignedSection); //add params
+        void AssignSection(Section assignedSection); 
     }
 }

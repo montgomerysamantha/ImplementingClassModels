@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ImplementingClassModels
 {
     
-    class Faculty : IFaculty
+    public class Faculty : IFaculty
     {
         private string _name;
         private List<Section> _sections;
@@ -17,7 +17,7 @@ namespace ImplementingClassModels
         }
         public void AssignSection(Section assignedSection)
         {
-            _sections.add(assignedSection);
+            _sections.Add(assignedSection);
         }
 
         public string GetName()

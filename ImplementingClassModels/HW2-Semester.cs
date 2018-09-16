@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ImplementingClassModels
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -25,7 +25,7 @@ namespace ImplementingClassModels
             Online section2 = new Online(s, c2, t2, "C03", 63);
             Console.WriteLine(section1.ToString());
             Console.WriteLine(section2.ToString());
-            Console.WriteLine("Testing");
+           // Console.WriteLine("Testing");
 
             Console.ReadKey();
         }
