@@ -10,7 +10,7 @@ namespace ImplementingClassModels
     public class Faculty : IFaculty
     {
         private string _name;
-        private List<Section> _sections;
+        private List<Section> _sections = new List<Section>();
         public Faculty(string n)
         {
             _name = n;

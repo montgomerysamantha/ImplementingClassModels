@@ -23,6 +23,8 @@ namespace ImplementingClassModels
 
             OnCampus section1 = new OnCampus(s, c1, t1, "B06", 50);
             Online section2 = new Online(s, c2, t2, "C03", 63);
+            t1.AssignSection(section1);
+            t2.AssignSection(section2);
             Console.WriteLine(section1.ToString());
             Console.WriteLine(section2.ToString());
            // Console.WriteLine("Testing");
