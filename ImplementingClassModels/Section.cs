@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace ImplementingClassModels
 {
+    /// <summary>
+    /// This class is to set the course number and section number
+    /// </summary>
+    /// <remarks>
+    /// This class contains both get and set methods for the respective section number and course number
+    /// </remarks>
     public class Section
     {
         //Should be dones

@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace ImplementingClassModels
 {
+    /// <summary>
+    /// This class is for online and it extends the section class
+    /// </summary>
+    /// <remarks>
+    /// This class contains a constructor that sets all the fields to their coresponding values passed in
+    /// It also contains a override string method which formats the string the way it needs to be in the outpout
+    /// </remarks>
     public class Online : Section
     {
         public Online(Semester semester, Course course, Faculty teacher, string number, int cap)
