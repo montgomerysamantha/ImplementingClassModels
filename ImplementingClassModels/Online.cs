@@ -26,7 +26,7 @@ namespace ImplementingClassModels
 
         public override string ToString()
         {
-            /* TODO:
+            /*
              * format string like this: 9899 section B06 (Advanced Black Arts) is being taught by Quirinus Quirrell in Fall
              *                  class number, section num, class name,         is being taught by teacher name, title of semester
              */

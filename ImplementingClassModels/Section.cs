@@ -14,8 +14,7 @@ namespace ImplementingClassModels
     /// </remarks>
     public class Section
     {
-        //Should be dones
-        protected Faculty _faculty; //?? not sure if this is correct
+        protected Faculty _faculty;
         //if I understand correctly each section can only have one faculty member so maybe
         /*
          * can't decide if _semester and _faculty should be private, protected, or public
